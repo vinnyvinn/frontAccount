@@ -76,3 +76,18 @@
 [07-Apr-2021 10:47:01 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, null given
 [07-Apr-2021 10:47:01 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, null given
 [07-Apr-2021 10:47:01 Europe/Berlin] 0::session.inc:266:[before upgrade] Unhandled exception [0]: Call to a member function can_access_page() on null.
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:33:[before upgrade] mysqli_connect(): (HY000/1045): Access denied for user 'deployment'@'localhost' (using password: YES)
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:35:[before upgrade] mysqli_select_db() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:286:[before upgrade] mysqli_set_charset() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:150:[before upgrade] mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:150:[before upgrade] mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:68:[before upgrade] mysqli_query() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:69:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:165:[before upgrade] mysqli_errno() expects parameter 1 to be mysqli, boolean given
+[07-Apr-2021 10:49:13 Europe/Berlin] 0::connect_db_mysqli.inc:127:[before upgrade] mysqli_num_rows() expects parameter 1 to be mysqli_result, null given
+[07-Apr-2021 10:51:31 Europe/Berlin] <b>DATABASE ERROR :</b> could not get validate user login for admin<br>error code : 1146<br>error message : Table 'oceanfoods.0_users' doesn't exist<br>sql that failed was : SELECT * FROM 0_users WHERE user_id = 'admin' AND password='25d55ad283aa400af464c76d713c07ad'<br><br><br>
+[07-Apr-2021 10:52:33 Europe/Berlin] 0::login.php:108:[before upgrade] count(): Parameter must be an array or an object that implements Countable
